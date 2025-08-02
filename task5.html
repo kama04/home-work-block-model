@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Експерименти з overflow</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container-overflow">
+        <p>Це контейнер</p>
+    </div>
+      <div class="container-overflow overflow-visible">
+    <strong>overflow: visible</strong>
+    <div class="content-overflow">Цей блок більший за контейнер і виходить за його межі.</div>
+  </div>
+
+  <div class="container-overflow overflow-hidden">
+    <strong>overflow: hidden</strong>
+    <div class="content-overflow">Цей блок більший за контейнер, але зайве обрізається.</div>
+  </div>
+
+  <div class="container-overflow overflow-scroll">
+    <strong>overflow: scroll</strong>
+    <div class="content-overflow">Цей блок більший за контейнер, тому з’являються смуги прокрутки.</div>
+  </div>
+
+  <div class="container-overflow overflow-auto">
+    <strong>overflow: auto</strong>
+    <div class="content-overflow">Цей блок більший за контейнер, прокрутка з’являється лише при потребі.</div>
+  </div>
+</body>
+</html>

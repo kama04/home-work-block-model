@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS властивості</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <h1>Властивість display та box-sizing</h1>
+
+  <div class="block-task3">
+    Це елемент з <code>display: block</code>. Він займає всю ширину контейнера (до max-width), кожен такий елемент починається з нового рядка.
+  </div>
+
+  <span class="inline">Це інлайновий елемент (inline)</span>
+  <span class="inline">Ще один інлайновий елемент поруч</span>
+  <span class="inline">І ще один</span>
+
+  <div class="flex-container">
+    <div class="flex-item">Flex item 1</div>
+    <div class="flex-item">Flex item 2</div>
+    <div class="flex-item">Flex item 3</div>
+  </div>
+
+  <div class="no-box-sizing" style="box-sizing: content-box;">
+    Цей блок має <code>box-sizing: content-box</code> (значення за замовчуванням). Тобто ширина 300px + padding + border додаються зверху, тому фактичний розмір буде більшим за 300px.
+  </div>
+
+  <div class="no-box-sizing" style="box-sizing: border-box;">
+    Цей блок має <code>box-sizing: border-box</code>. Ширина 300px включає padding і border, тому блок займає саме 300px по ширині.
+  </div>
+</body>
+</html>

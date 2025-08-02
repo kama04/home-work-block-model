@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Позиціонування елементів</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<h1>Приклади CSS позиціонування</h1>
+
+<section>
+  <h2>1. Static (за замовчуванням)</h2>
+  <div class="static-box">
+    Це елемент з позиціюванням static (статичним). Він розташовується згідно нормального потоку сторінки.
+  </div>
+</section>
+
+<section>
+  <h2>2. Relative (відносне позиціювання)</h2>
+  <div class="relative-box">
+    Цей елемент позиціонований відносно свого нормального положення (top:20px, left:30px).
+  </div>
+</section>
+
+<section>
+  <h2>3. Absolute (абсолютне позиціювання)</h2>
+  <div class="absolute-container">
+    Контейнер з position: relative;<br>
+    <div class="absolute-box">
+      Цей елемент позиціонований абсолютно відносно батька. Він зафіксований вгорі справа.
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>4. Fixed (фіксоване позиціювання)</h2>
+  <p>Прокрутіть сторінку вниз — цей елемент залишиться зафіксованим внизу справа вікна браузера.</p>
+  <div class="fixed-box">
+    Fixed позиціювання — прикріплено до вікна браузера.
+  </div>
+</section>
+
+<section>
+  <h2>5. Sticky (липке позиціювання)</h2>
+  <div class="sticky-header">
+    Sticky header — прилипає до верху при прокрутці.
+  </div>
+  <div class="content-sticky">
+    Прокрутіть сторінку, щоб побачити, як цей заголовок прилипає до верху в межах свого контейнера.
+    <br><br>
+    Тут багато контенту, щоб можна було прокручувати сторінку...
+  </div>
+</section>
+
+</body>
+</html>

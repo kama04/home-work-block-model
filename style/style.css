@@ -1,0 +1,222 @@
+body {
+  margin: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+}
+
+a {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #e0e0ff;
+}
+
+.container {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.block-task1 {
+  background-color: #d0ebff;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.inline-example {
+  font-style: italic;
+  background-color: #e2ffe2;
+}
+
+.block-task3 {
+  display: block;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #3498db;
+  background-color: #d6eaf8;
+}
+
+.inline {
+  display: inline;
+  padding: 5px 10px;
+  border: 2px solid #e67e22;
+  background-color: #f9e79f;
+  margin-right: 10px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+  width: 320px;
+  padding: 10px;
+  border: 2px solid #27ae60;
+  background-color: #d5f5e3;
+  margin-bottom: 15px;
+}
+
+.flex-item {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #145a32;
+  background-color: #a9dfbf;
+  text-align: center;
+}
+
+.no-box-sizing {
+  width: 300px;
+  padding: 10px;
+  border: 5px solid red;
+  margin-bottom: 15px;
+  background-color: #f5b7b1;
+}
+
+.float-left {
+  float: left;
+  width: 150px;
+  height: 100px;
+  margin-right: 15px;
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.float-right {
+  float: right;
+  width: 150px;
+  height: 100px;
+  margin-left: 15px;
+  background-color: #e74c3c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.clear-both {
+  clear: both;
+  padding-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+.container-overflow {
+  width: 300px;
+  height: 150px;
+  border: 2px solid #333;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.overflow-visible {
+  overflow: visible;
+  background-color: #dff0d8;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+  background-color: #f2dede;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+  background-color: #d9edf7;
+}
+
+.overflow-auto {
+  overflow: auto;
+  background-color: #fcf8e3;
+}
+
+.content-overflow {
+  width: 500px;
+  height: 200px;
+  background-color: #777;
+  color: white;
+  padding: 10px;
+}
+
+.static-box {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.relative-box {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  background-color: #d0f0d0;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid green;
+}
+
+.absolute-container {
+  position: relative;
+  background-color: #f9f9f9;
+  height: 150px;
+  margin: 10px;
+  border: 1px solid #999;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ffd0d0;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.fixed-box {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #d0d0ff;
+  padding: 10px;
+  border: 1px solid blue;
+  z-index: 1000;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #fff8d0;
+  padding: 10px;
+  border: 1px solid orange;
+  font-weight: bold;
+}
+
+.content-sticky {
+  height: 1200px;
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 40px;
+}
